@@ -1,0 +1,46 @@
+{
+  "name": "servernodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "12.11.1",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ines chouea",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "heroku": "^7.59.0",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.6",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "pubnub": "^4.32.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.0.2",
+    "socket.io-client": "^4.0.2",
+    "socks": "^2.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
